@@ -1,0 +1,33 @@
+li.nav-item a {
+    color: #000;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  li.dropdown>a:hover {
+    border-bottom: 3px solid #d60e96;
+  }
+  
+  ul.dropdown-menu {
+    border-radius: 0 !important;
+    border: none !important;
+    padding: 0;
+  }
+  
+  li.dropdown:hover ul.dropdown-menu {
+    display: block;
+    transition: all 0.25s ease-in-out;
+    min-width: 20rem !important;
+    margin: 0;
+    padding-top: 0.125rem;
+  }
+  
+  .dropdown-menu .nav-item:hover {
+    background: #d60e96;
+  }
+  
+  .dropdown-menu .nav-item a:hover {
+    color: #fff;
+  }
+  
